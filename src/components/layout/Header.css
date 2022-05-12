@@ -12,17 +12,6 @@ header h1 {
     font-weight: 200;
 }
 
-button {
-    border: 0;
-    background-color: #2a913e;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 15px;
-    padding: 3px 25px;
-    font-weight: 600;
-    border-radius: 2px;
-}
-
 .search {
     display: flex;
 }
@@ -30,9 +19,4 @@ button {
 .search input {
     width: 13em;
     margin-right: 5px;
-}
-
-.map {
-    background-color: green;
-    height: calc(100vh - 49px)
 }
