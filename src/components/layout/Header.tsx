@@ -1,4 +1,4 @@
-import React, {FormEventHandler, SyntheticEvent, useContext, useState} from 'react';
+import React, {SyntheticEvent, useContext, useState} from 'react';
 import {Btn} from "../common/Btn";
 
 import './Header.css';
@@ -19,7 +19,7 @@ export const Header = () => {
             <h1>
                 <strong>Mega</strong> Ogłoszenia
             </h1>
-            <Btn text='Dodaj ogłoszenie'/>
+            <Btn to="/add" text='Dodaj ogłoszenie'/>
             <form className="search" onSubmit={setSearchFromLocalState}>
                 <input type="text" value={inputVal} onChange={e => setInputVal(e.target.value)}/> <Btn text='Szukaj'/>
             </form>
